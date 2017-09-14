@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnValidate).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String password = etPassword.getText().toString();
+                String password = etPassword.getText().toString().trim();
                 if (validatePassword(password))
                     Toast.makeText(MainActivity.this, "Correct", Toast.LENGTH_LONG).show();
                 else Toast.makeText(MainActivity.this, "Incorrect", Toast.LENGTH_LONG).show();
