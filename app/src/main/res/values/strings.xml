@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StudyGroup</string>
+    <string name="insert_your_password">Insert your password</string>
+    <string name="validate">Validate password format</string>
 </resources>
